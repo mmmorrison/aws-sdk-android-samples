@@ -15,12 +15,12 @@ buildscript {
 apply plugin: 'com.android.application'
 
 dependencies {
-    compile 'com.amazonaws:aws-android-sdk-iot:2.2.12+'
+    compile 'com.amazonaws:aws-android-sdk-s3:2.2.+'
 }
 
 android {
     buildToolsVersion "21.1.2"
-    compileSdkVersion 10
+    compileSdkVersion 19
 
     defaultConfig {
         versionCode 1
